@@ -166,7 +166,7 @@ body {
 /* Media Query for Desktop */
 @media (min-width: 650px) {
     .header {
-        justify-content: center; /* Center the content horizontally on desktop */
+        justify-content: center;
     }
 
     .main-nav a {
