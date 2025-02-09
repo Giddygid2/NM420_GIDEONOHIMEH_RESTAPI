@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="assets/Css/style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="assets/images/Dictionarycopy.png"Dictionary Logo">
+        <h1>GID DICTIONARY</h1>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Word of the Day</a></li>
+            <li><a href="#">Synonyms</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+
+       
+        <section class="search-section">
+            <h2 class="visually-hidden">Word Search</h2>
+            <div class="search-box">
+                <input type="text" id="word" placeholder="Enter a word">
+                <button onclick="searchWord()">Search</button>
+            </div>
+            <article class="result" id="result"></article>
+        </section>
+        <section>
+            <img id="libraryImage" src="assets/images/library.jpeg" alt="">
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Dictionary. All rights reserved.</p>
+    </footer>
+
+    <script src="assets/Js/main.js"></script>
+</body>
+</html>
